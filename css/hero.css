@@ -1,0 +1,68 @@
+body{
+	animation: bgAnim 5s infinite alternate linear;
+	font-family: fantasy;
+	line-height: 30px;
+
+
+}
+@keyframes bgAnim {
+	0% {
+		background-color: #ee6055;
+	}
+	25%{
+		background-color: #eec355;
+	}
+	50%{
+		background-color: #8afe76;
+	}
+	75%{
+		background-color: #55d2ee;
+	}
+	100%{
+		background-color: #ee55ee;
+	}
+}
+header{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 5px;
+}
+header img{
+	border-radius: 150px;
+	width: 300px;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+}
+main img{
+	max-width: 800px;
+	text-align: center;
+}
+
+h2{
+	font-size: 35px
+	color:red;
+	margin: 40px 0 10px;
+}
+p{
+	font-size: 30px;
+}
+a:hover{
+	color: #FFFFFF
+}
+footer{
+	color: white ;
+	line-height: 30px;
+	opacity: 5;
+	background-color: transparent;
+	text-align: center;
+}
+footer :hover{
+	color: black;
+}
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+} 
